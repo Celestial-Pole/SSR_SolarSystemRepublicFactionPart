@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FactionDef>
+        <defName>SSR_Faction</defName>
+        <label>太阳系共和国前哨站</label>
+        <description>太阳系共和国前哨站。</description>
+        <leaderTitle>站点主管</leaderTitle>
+        <categoryTag>Outlander</categoryTag>
+        <listOrderPriority>30</listOrderPriority>
+        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <!-- <displayInFactionSelection>false</displayInFactionSelection> -->
+        <hidden>true</hidden>
+        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+        <factionIconPath>UI/SSR_FactionIcon</factionIconPath>
+        <techLevel>Archotech</techLevel>
+        <factionNameMaker>SSR_FactionNamer</factionNameMaker>
+        <allowedCultures>
+            <li>Astropolitan</li>
+        </allowedCultures>
+        <allowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+        </allowedMemes>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+            <li>SSR_Meme_Communism</li>
+        </requiredMemes>
+        <disallowedPrecepts>
+            <li MayRequire="Ludeon.RimWorld.Ideology">AnimalSlaughter_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">AutonomousWeapons_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FungusEating_Despised</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">IdeoDiversity_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">InsectMeatEating_Loved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">KillingInnocentAnimals_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Darklight_Preferred</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DarknessCombat_Preferred</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_FreeApproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Mining_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Raiding_Required</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Desired</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">BioSculpter_Despised</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">TreeCutting_Disapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Trees_Desired</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeders_Revered</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">GrowthVat_Essential</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">MechanoidLabor_Enhanced</li>
+        </disallowedPrecepts>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Outlander</li>
+                </categories>
+            </li>
+            <li>
+                <categories>
+                    <li>Offworld</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+        <raidLootValueFromPointsCurve>
+            <points>
+                <li>(0,0)</li>
+            </points>
+        </raidLootValueFromPointsCurve>
+    </FactionDef>
+
+    <RulePackDef>
+        <defName>SSR_FactionNamer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->太阳系共和国</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

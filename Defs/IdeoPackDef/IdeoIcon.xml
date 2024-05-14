@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <IdeoIconDef>
+    <defName>SSR_IdeoIconA</defName>
+    <iconPath>UI/IdeoIcon/SSR_IconA</iconPath>
+    <memes>
+      <li>SSR_Meme_Communism</li>
+    </memes>
+  </IdeoIconDef>
+
+</Defs>
