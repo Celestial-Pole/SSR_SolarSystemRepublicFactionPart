@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<name>[SSR]Solar System Republic Core 太阳系共和国核心包</name>
-	<packageId>SSR.Core</packageId>
+	<name>[SSR]Solar System Republic DLC 太阳系共和国拓展包</name>
+	<packageId>SSR.DLC</packageId>
 	<author>Celestial Pole,Nesi,mo,Fleurety,3HST有限公司</author>
 	<url></url>
 	<supportedVersions>
@@ -10,5 +10,5 @@
 	</supportedVersions>
 	<loadAfter>
 	</loadAfter>
-	<description>增加了一系列来自个人设定太阳系共和国的道具</description>
+	<description>太阳系共和国拓展包</description>
 </ModMetaData>
